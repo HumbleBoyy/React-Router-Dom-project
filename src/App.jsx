@@ -1,9 +1,9 @@
-import React from 'react'
+import PagesRoute from "./routes"
 
 const App = () => {
   return (
     <div>
-      
+      <PagesRoute/>
     </div>
   )
 }
