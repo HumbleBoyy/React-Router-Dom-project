@@ -1,13 +1,20 @@
-import Home from "./Home";
-import About from "./About";
+import Overview from "./Overview";
+import Tickets from "./Tickets";
 import Contact from "./Contact";
-import Info from "./Info";
+import Agents from "./Agents";
 import NotFound from "./NotFound";
-
+import Settings from "./Settings"
+import Subscription from "./Subscription"
+import Ideas from "./Ideas"
+import Articles from "./Articles"
 export {
-    Home,
-    About,
+    Overview,
+    Tickets,
     Contact,
-    Info,
-    NotFound
+    Agents,
+    NotFound,
+    Settings,
+    Subscription,
+    Ideas,
+    Articles
 }
