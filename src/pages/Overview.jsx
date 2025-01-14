@@ -57,9 +57,9 @@ const Home = () => {
              <h2 className='text-[15px]'>Awaiting Developer Fix</h2>
              <p className='text-[15px] text-[#9FA2B4]'>914</p>
           </div>
-          <div className='flex justify-between items-center border-b p-3'>
+          <div className='flex justify-between items-center p-3'>
              <h2 className='text-[15px]'>Pending</h2>
-             <p className='text-[15px] text-[#9FA2B4]'>281</p>
+             <p className='text-[15px] text-[#9FA2B4] p-1'>281</p>
           </div>
               </LastCard>
 
@@ -91,7 +91,7 @@ const Home = () => {
              </div>
              <button className='text-[15px] text-[#ffff] bg-green-500 p-1 w-[74px] rounded-md uppercase'>New</button>
           </div>
-          <div className='flex justify-between items-center border-b p-3'>
+          <div className='flex justify-between items-center p-3'>
              <div className='flex items-center gap-2'>
              <img src={activeCheck} alt="InactiveCheck" />
              <h2 className='text-[15px]'>Update ticket report</h2>
