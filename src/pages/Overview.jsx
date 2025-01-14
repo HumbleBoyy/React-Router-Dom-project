@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <div className="flex flex-col h-full p-4 gap-2">
       <div className='flex justify-between items-center'>
-        <Card text={"60"} extraClass={"!w-[258px] !h-[135px]"} pText={"Unresolved"}/>
-        <Card text={"16"} extraClass={"!w-[258px] !h-[135px]"} pText={"Overdue"} pTextExtraClass={"!text-[#3751FF]"} extraTextClass={"!text-[#3751FF]"}/>
-        <Card text={"43"} extraClass={"!w-[258px] !h-[135px]"} pText={"Open"}/>
-        <Card text={"64"} extraClass={"!w-[258px] !h-[135px]"} pText={"On Hold"}/>
+        <Card text={"60"} extraClass={"!w-[258px] !rounded-md !h-[135px]"} pText={"Unresolved"}/>
+        <Card text={"16"} extraClass={"!w-[258px] !rounded-md !h-[135px]"} pText={"Overdue"} pTextExtraClass={"!text-[#3751FF]"} extraTextClass={"!text-[#3751FF]"}/>
+        <Card text={"43"} extraClass={"!w-[258px] !rounded-md !h-[135px]"} pText={"Open"}/>
+        <Card text={"64"} extraClass={"!w-[258px] !rounded-md !h-[135px]"} pText={"On Hold"}/>
       </div>
 
       <div className='flex items-center'>
@@ -70,7 +70,7 @@ const Home = () => {
                  <h2 className='font-bold text-[20px]'>Tasks</h2>
                  <p className='text-[12px]'><span className='text-[#9FA2B4]'>Today</span></p>
              </div>
-             <Link to={"#"} className={"text-[#3751FF]"}>View alll</Link>
+             <Link to={"#"} className={"text-[#3751FF]"}>View all</Link>
           </div>
 
           <div className='flex justify-between items-center border-b p-3'>
